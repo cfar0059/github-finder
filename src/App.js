@@ -4,9 +4,11 @@ import './App.css';
 
 class App extends Component {
     render() {
+        const number = [1,2,3,4]
+
         return (
             <nav className="navbar bg-primary">
-                <Navbar title="Github Finder" />
+                <Navbar />
             </nav>
         );
     }
