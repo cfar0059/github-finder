@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class User extends Component {
     componentDidMount() {
-        this.props.getUser(this.props.match.params.login);
+        this.props.getUser(this.props.match.params.username);
     }
 
     render() {
